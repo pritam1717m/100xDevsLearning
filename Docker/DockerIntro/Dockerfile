@@ -4,9 +4,11 @@ WORKDIR /app
 
 RUN npm install -g typescript
 
-COPY package*.json ./
+COPY package* ./
+COPY ./prisma .
 
 RUN npm install
+RUN npx prisma generate
 
 COPY . .
 
