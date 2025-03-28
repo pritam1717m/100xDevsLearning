@@ -1,0 +1,20 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/swagger-ui-express": "^4.1.8",
+    "express": "^4.21.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
